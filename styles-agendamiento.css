@@ -1,0 +1,71 @@
+/* Estilos básicos para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(31,132,187,1) 79%, rgba(54,62,203,1) 100%);
+    color: #fff;
+}
+
+/* Contenedor principal */
+.container-2 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilo del título */
+h1 {
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para los labels y los inputs */
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #fff;
+}
+
+select, input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Estilo del botón */
+
+button {
+    margin-top: 60px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(185, 208, 221) 89%, rgba(37,113,191,1) 96%, rgba(98,105,227,1) 100%);
+    color: rgb(67, 55, 238);
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para el botón */
+button:hover {
+    background: linear-gradient(-90deg, rgba(13, 78, 112, 0.59) 89%, rgba(37,113,191,1) 96%, rgba(98,105,227,1) 100%);
+    color: #fff;
+}
